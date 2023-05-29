@@ -1,0 +1,29 @@
+#layout {
+    height: 100%;
+    min-height: 100%;
+    padding-bottom: 30px;
+}
+#header-layout {
+    display: 'flex';
+    align-items: 'center';
+    height: '64px';
+
+}
+
+#content-layout {
+    height: calc(100vh - 114px);
+    min-height: calc(100vh- 114px);
+    padding-bottom: 30px;
+}
+
+#footer-layout{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 100%;
+    bottom: 0;
+    position:fixed;
+    left:0px;
+    bottom:0px;
+}
